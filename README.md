@@ -1,7 +1,12 @@
-# freightCalc - v. 2.0
+# HeightConverter v1
 
-![code Output](https://github.com/danbsolo/images/blob/main/freightCalcOUTPUT%20v2.JPG)
+> Converts height from cm to feet+inches.
 
-> Determines the amount of wagons needed based on the size of each wagon and the volume of the cargo being delivered.
+![code Output](https://github.com/danbsolo/images/blob/output/HeightConverter.png)
 
-Comparing costs between only two objects isn't particularly challenging, so the program will now compare volume instead. Changed the names to be more descriptive as well.
+Nothing special; I'm just proud of the math more than anything. This code's primary purpose was to teach myself about encapsulation more thoroughly; hence, a couple odd design choices and a lack of comments.
+
+#### What I've learned while writing this code:
+- the effectiveness of getters and setters in java (and perhaps even in more languages?)
+- how height calculations operate :)
+- that *do while loops* CAN have a purpose! Specifically, when it comes to "input takers," such as java's Scanner class or python's input() function
